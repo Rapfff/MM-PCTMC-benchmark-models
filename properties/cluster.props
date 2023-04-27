@@ -1,0 +1,15 @@
+"repairs100": R{"num_repairs"}=? [ C<=100 ];
+"repairs200": R{"num_repairs"}=? [ C<=200 ];
+"repairs300": R{"num_repairs"}=? [ C<=300 ];
+"repairs400": R{"num_repairs"}=? [ C<=400 ];
+"repairs500": R{"num_repairs"}=? [ C<=500 ];
+"operational10": R{"percent_op"}=? [ I=10 ];
+"operational20": R{"percent_op"}=? [ I=20 ];
+"operational30": R{"percent_op"}=? [ I=30 ];
+"operational40": R{"percent_op"}=? [ I=40 ];
+"operational50": R{"percent_op"}=? [ I=50 ];
+"below_min10": R{"time_not_min"}=? [ C<=10 ];
+"below_min50": R{"time_not_min"}=? [ C<=50 ];
+"below_min100": R{"time_not_min"}=? [ C<=100 ];
+"below_min200": R{"time_not_min"}=? [ C<=200 ];
+"below_min500": R{"time_not_min"}=? [ C<=500 ];

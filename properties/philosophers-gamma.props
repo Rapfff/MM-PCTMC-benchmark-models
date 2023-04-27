@@ -1,0 +1,6 @@
+Pmin=?[true U<=10 "eat" {"hungry"}{min}];
+Pmin=?[true U<=50 "eat" {"hungry"}{min}];
+Pmin=?[true U<=100 "eat" {"hungry"}{min}];
+Pmin=?[true U<=200 "eat" {"hungry"}{min}];
+Pmin=?[true U<=300 "eat" {"hungry"}{min}];
+Rmax=?[F "eat" {"hungry"}{max}];

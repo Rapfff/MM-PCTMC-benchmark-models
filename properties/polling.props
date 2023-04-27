@@ -1,0 +1,14 @@
+"s1": S=? [ s1=1 & !(s=1 & a=1) ];
+"s1_before_s2": P=? [ !(s=2 & a=1) U (s=1 & a=1) ];
+"served10": R{"served"}=? [ C<=10 ];
+"served20": R{"served"}=? [ C<=20 ];
+"served30": R{"served"}=? [ C<=30 ];
+"served40": R{"served"}=? [ C<=40 ];
+"served50": R{"served"}=? [ C<=50 ];
+"station1_polled5": P=? [ F<=5 (s=1 & a=0) ];
+"station1_polled10": P=? [ F<=10 (s=1 & a=0) ];
+"waiting10": R{"waiting"}=? [ C<=10 ];
+"waiting20": R{"waiting"}=? [ C<=20 ];
+"waiting30": R{"waiting"}=? [ C<=30 ];
+"waiting40": R{"waiting"}=? [ C<=40 ];
+"waiting50": R{"waiting"}=? [ C<=50 ];
